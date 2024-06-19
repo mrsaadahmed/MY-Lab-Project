@@ -1,0 +1,1 @@
+gcc -o game.exe main.c splash.c scene1.c sound_player.c utils.c -lwinmm

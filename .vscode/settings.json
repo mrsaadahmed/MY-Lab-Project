@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "splash.h": "c",
+        "sound_player.h": "c",
+        "scene1.h": "c"
+    }
+}
