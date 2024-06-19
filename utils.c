@@ -56,4 +56,7 @@ void PrintLineWhite(char *line) {
     printf(WHITE "%s\n" RESET, line);
 };
 
-
+void ClearScreen() {
+    printf("\x1b[2J");
+    fflush(stdout);
+}

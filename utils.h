@@ -8,5 +8,6 @@ void PrintLineBlue(char *line);
 void PrintLineMagenta(char *line);
 void PrintLineCyan(char *line);
 void PrintLineWhite(char *line);
+void ClearScreen();
 
 #endif

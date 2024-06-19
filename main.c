@@ -4,7 +4,7 @@
 
 int main() {
   printf("Starting the game...\n");
-  splash();
+  Splash();
 
   // printf("The wind whispers secrets through the ancient trees of the Whispering Woods. Sunlight struggles to pierce the dense canopy, casting long, eerie shadows on the forest floor.\n\n");
   // printf("Rumors abound of a hidden library, a treasure trove of forgotten knowledge, buried deep within these woods. You, a scholar with an insatiable thirst for wisdom, have become consumed by this legend.\n\n");

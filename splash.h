@@ -1,6 +1,6 @@
 #ifndef SPLASH 
 #define SPLASH
 
-void splash();
+void Splash();
 
 #endif

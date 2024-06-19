@@ -59,7 +59,7 @@ This improved version utilizes Mohatta Palace as the setting, incorporating elem
 Generate Text-To-Speach (TTS) for the game
 
 Command:
-tts --text "text goes here" --model_name tts_models/multilingual/multi-dataset/xtts_v2 --vocoder_name tts_models/multilingual/multi-dataset/xtts_v2 --speaker_idx "Kumar Dahl" --language_idx en --out_path output/KumarDahl.wav
+tts --text "text goes here" --model_name tts_models/multilingual/multi-dataset/xtts_v2 --vocoder_name tts_models/multilingual/multi-dataset/xtts_v2 --speaker_idx "Kumar Dahl" --language_idx en --out_path KumarDahl.wav
 
 
 
