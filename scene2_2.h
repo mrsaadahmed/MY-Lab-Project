@@ -1,7 +1,7 @@
 #ifndef SCENE2_2
 #define SCENE2_2
 
-void scene2_2();
+void Scene2_2();
 
 #endif
 

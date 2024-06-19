@@ -6,7 +6,24 @@
 #include "scene2_1.h"
 #include "scene2_2.h"
 
-void listenChoice();
+void listenChoice() {
+    char choice[10];
+    fgets(choice, 10, stdin);
+    int index = strcspn(choice, "\n");
+
+    choice[index] = 0;
+    if (strcmp(choice, "1") == 0) {
+        M_StopSound();
+        Scene2_1();
+    } else if (strcmp(choice, "2") == 0) {
+        M_StopSound();
+        Scene2_2();
+    } else {
+        printf("I don't understand. Please answer '1' or '2'.\n");
+        listenChoice();
+        //recursive call
+    }
+}
 
 void Scene1() {
     ClearScreen();
@@ -20,26 +37,4 @@ void Scene1() {
     printf("> ");
 
     listenChoice();
-}
-
-void listenChoice() {
-    char choice[10];
-    fgets(choice, 10, stdin);
-    choice[strcspn(choice, "\n")] = 0;
-
-    if (strcmp(choice, "1") == 0) {
-        M_StopSound();
-        void scene2_1();
-        scene2_1();
-        //TODO: Move to scene2
-    } else if (strcmp(choice, "2") == 0) {
-        M_StopSound();
-        void scene2_2();
-        scene2_2();
-        // TODO: Move to scene1 death
-    } else {
-        printf("I don't understand. Please answer '1' or '2'.\n");
-        listenChoice();
-        //recursive call
-    }
 }
