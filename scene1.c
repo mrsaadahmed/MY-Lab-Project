@@ -9,13 +9,10 @@ void listenChoice();
 void scene1() {
     M_PlaySound("scene1.wav");
 
-    printf("As the chilling wails echo through the palace, you clutch your lantern, its light flickering nervously. The storm outside intensifies, casting ominous shadows across the ancient walls. \n Ahead, a hallway stretches into darkness, its end obscured by a swaying velvet curtain. You stand at a crossroads, faced with two choices:\n");
+    PrintLineWhite("As the chilling wails echo through the palace, you clutch your lantern, its light flickering nervously. The storm outside intensifies, casting ominous shadows across the ancient walls. \n Ahead, a hallway stretches into darkness, its end obscured by a swaying velvet curtain. You stand at a crossroads, faced with two choices:\n");
     
-    char line1[] = "1. Investigate the Ancient Tome\n";
-    char line2[] = "2. Proceed Beyond the Velvet Curtain\n";
-
-    PrintLineGreen(line1);
-    PrintLineRed(line2);
+    PrintLineGreen("1. Investigate the Ancient Tome");
+    PrintLineRed("2. Proceed Beyond the Velvet Curtain");
     
     printf("> ");
 
