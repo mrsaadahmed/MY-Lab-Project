@@ -1,1 +1,1 @@
-gcc -o game.exe main.c splash.c scene1.c sound_player.c utils.c -lwinmm
+gcc -o game.exe main.c splash.c scene1.c sound_player.c utils.c scene2_1.c scene2_2.c -lwinmm

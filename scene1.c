@@ -3,6 +3,8 @@
 #include "scene1.h"
 #include "sound_player.h"
 #include "utils.h"
+#include "scene2_1.h"
+#include "scene2_2.h"
 
 void listenChoice();
 
@@ -27,9 +29,13 @@ void listenChoice() {
 
     if (strcmp(choice, "1") == 0) {
         M_StopSound();
+        void scene2_1();
+        scene2_1();
         //TODO: Move to scene2
     } else if (strcmp(choice, "2") == 0) {
         M_StopSound();
+        void scene2_2();
+        scene2_2();
         // TODO: Move to scene1 death
     } else {
         printf("I don't understand. Please answer '1' or '2'.\n");
