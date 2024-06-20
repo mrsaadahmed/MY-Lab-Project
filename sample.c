@@ -4,6 +4,7 @@
 
 //Command:
 /// tts --text "text goes here" --model_name tts_models/multilingual/multi-dataset/xtts_v2 --vocoder_name tts_models/multilingual/multi-dataset/xtts_v2 --speaker_idx "Kumar Dahl" --language_idx en --out_path KumarDahl.wav
+// tts --text "मुझे काम बताओ, मैं क्या करूँ, मैं किसको खा ऊँ।" --model_name tts_models/multilingual/multi-dataset/xtts_v2 --vocoder_name tts_models/multilingual/multi-dataset/xtts_v2 --speaker_idx "Kumar Dahl" --language_idx hi --out_path spell.wav
 
 //2+2 = 4
 //result add(a, b)

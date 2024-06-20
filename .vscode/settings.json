@@ -3,6 +3,7 @@
         "splash.h": "c",
         "sound_player.h": "c",
         "scene1.h": "c",
-        "utils.h": "c"
+        "utils.h": "c",
+        "scene2_1.h": "c"
     }
 }

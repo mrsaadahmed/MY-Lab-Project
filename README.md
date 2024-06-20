@@ -56,13 +56,8 @@ This improved version utilizes Mohatta Palace as the setting, incorporating elem
 
 
 
-Generate Text-To-Speach (TTS) for the game
 
-Command:
-tts --text "text goes here" --model_name tts_models/multilingual/multi-dataset/xtts_v2 --vocoder_name tts_models/multilingual/multi-dataset/xtts_v2 --speaker_idx "Kumar Dahl" --language_idx en --out_path KumarDahl.wav
-
-
-
+You, a local artist captivated by Mohatta Palace's rich history, are granted a special permit to explore the museum after closing hours.  Legends whisper of a hidden room within the palace walls, said to hold forgotten artifacts and secrets of its past residents.  Armed with a borrowed lantern and a sketchpad, you delve into the dimly lit halls adorned with intricate carvings.  However, as the storm rages outside, the shadows within the palace take on menacing forms. Eerie whispers fill the air, and whispers morph into chilling wails. 
 
 As the chilling wails echo through the palace, you clutch your lantern, its light flickering nervously. The storm outside intensifies, casting ominous shadows across the ancient walls.
 
@@ -86,3 +81,67 @@ Suddenly, the ground beneath your feet gives way with a deafening crack. You plu
 With your lantern shattered and no way to climb out, despair sets in. The chilling wails grow louder, mingling with your own frantic cries for help. As consciousness fades, you realize too late the perilous fate that awaited those who dared to trespass beyond the velvet curtain.
 
 The secrets of Mohatta Palace claim another victim, their mysteries buried with your untimely demise...
+
+Outcome for Choice 1: Investigate the Ancient Tome
+You gently open the tome, its brittle pages rustling softly. The ancient script is difficult to decipher, but you recognize some symbols from previous explorations. The sketches depict strange rituals and a map of the palace, indicating the location of a hidden chamber beneath the east wing.
+
+As you study the tome, you notice a loose page. Carefully removing it, you discover a detailed drawing of an ornate key and a passage written in a forgotten language. The symbols seem to align with markings you saw earlier near the velvet curtain. As you continue to read, the words on the page begin to glow faintly. You feel a strange energy flowing through you as you unconsciously start to speak the incantation aloud.
+
+Suddenly, you realize that you have learned a spell: Zaibeeeenaaa, a spell that allows you to reveal hidden objects and passages.
+
+You have gained important knowledge about the hidden room and a powerful spell. With this newfound information, you can now:
+
+Choice 1.1: Return to the Hallway
+
+Armed with the knowledge from the tome and the spell Zaibeeeenaaa, you decide to continue down the hallway, more confident in your quest.
+
+Choice 1.2: Try Out the Spell
+
+Curious and eager to test your newfound ability, you decide to try out the spell Zaibeeeenaaa immediately.
+
+Outcome for Choice 1.1: Return to the Hallway
+With the knowledge from the tome and the spell Zaibeeeenaaa, you proceed back to the hallway, feeling more prepared for what lies ahead. The chilling wails echo once more, but this time you feel a sense of determination.
+
+You can now:
+
+Choice 1: Investigate the Ancient Tome
+
+Knowing that the tome has already given you valuable knowledge and a spell, you consider revisiting it for any overlooked details.
+
+Choice 2: Proceed Beyond the Velvet Curtain
+
+Armed with the spell Zaibeeeenaaa, you decide to push forward into the unknown once again, more confident in your ability to uncover the palace’s secrets.
+
+Outcome for Choice 1.2: Try Out the Spell (leading to death)
+Excited by the power you now possess, you decide to test the spell Zaibeeeenaaa right away. You chant the incantation, 
+
+Mujhe kaam batao, Mai kiya karu, Mai kis ko khawu?
+
+and the hallway before you glows with an ethereal light, revealing hidden markings and secret passageways.
+
+However, the magical energy attracts unseen entities lurking in the shadows. Dark, ghostly figures materialize, drawn to the light and the power you have unleashed. Panic grips you as the figures advance, their chilling presence overwhelming your senses.
+
+In your terror, you forget the spell's incantation and drop your lantern. The light extinguishes, plunging you into darkness. The entities surround you, their whispers turning into deafening wails. You try to flee, but the entities close in, their icy touch draining your strength.
+
+As you fall to the ground, you realize too late the peril of wielding powers you do not fully understand. The last thing you hear is the echo of your own scream, mingling with the wails of the entities that now claim you.
+
+The secrets of Mohatta Palace remain hidden, and another soul is lost to its ancient, malevolent forces.
+
+Outcome for Choice 2: Proceed Beyond the Velvet Curtain
+If you haven't learned the spell:
+Ignoring the ominous warnings echoing in your mind, you push aside the velvet curtain and step into the darkness beyond. The air grows heavy with an unnatural chill, sending shivers down your spine. As you move deeper into the unknown corridor, a faint whispering voice beckons you forward.
+
+Suddenly, the ground beneath your feet gives way with a deafening crack. You plummet into a hidden trap, landing hard on unforgiving stone. Pain shoots through your body as you struggle to regain your bearings. Above you, the velvet curtain falls back into place, sealing you in darkness.
+
+With your lantern shattered and no way to climb out, despair sets in. The chilling wails grow louder, mingling with your own frantic cries for help. As consciousness fades, you realize too late the perilous fate that awaited those who dared to trespass beyond the velvet curtain.
+
+The secrets of Mohatta Palace claim another victim, their mysteries buried with your untimely demise.
+
+If you have learned the spell:
+With the knowledge from the tome and the spell Zaibeeeenaaa at your disposal, you feel a surge of confidence. You push aside the velvet curtain and step into the darkness beyond, ready to face whatever lies ahead. The air grows heavy with an unnatural chill, but you summon the spell, and the hallway illuminates with an ethereal light.
+
+Mujhe kaam batao, Mai kiya karu, Mai kis ko khawu?
+
+The light reveals hidden passages and ancient markings on the walls, guiding you safely through the treacherous corridor. As you proceed, you notice a hidden door that was previously obscured. You use the spell to reveal the mechanism to open it, and the door swings open with a creak.
+
+To Be Continued...

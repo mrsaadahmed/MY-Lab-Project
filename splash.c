@@ -5,12 +5,18 @@
 #include "scene2_1.h"
 #include "scene2_2.h"
 #include "utils.h"
+#include "render_image.h"
+
+int SpellGranted;
+
 
 void picth1() {
     ClearScreen();
     M_PlaySound("picth1.wav");
 
-    PrintLineWhite("Welcome to Mohatta Palace\n");
+    RenderImage();
+
+    PrintLineWhite("\n\n\nWelcome to Mohatta Palace\n");
 
     PrintLineMagenta("Press enter to continue...\n");
     getchar();

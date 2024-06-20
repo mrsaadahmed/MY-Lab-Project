@@ -1,6 +1,8 @@
 #ifndef UTILS_H
 #define UTILS_H
 
+void PrintRed(char *line);
+
 void PrintLineGreen(char *line);
 void PrintLineRed(char *line);
 void PrintLineYellow(char *line);

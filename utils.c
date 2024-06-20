@@ -28,6 +28,11 @@
 #define BG_LIGHT_YELLOW "\x1b[48;5;227m" // Light yellow
 #define BG_LIGHT_CYAN "\x1b[48;5;195m" // Light cyan
 
+
+void PrintRed(char *line) {
+    printf(RED "%s" RESET, line);
+};
+
 void PrintLineRed(char *line) {
     printf(RED "%s\n" RESET, line);
 };
@@ -55,6 +60,7 @@ void PrintLineCyan(char *line) {
 void PrintLineWhite(char *line) {
     printf(WHITE "%s\n" RESET, line);
 };
+
 
 void ClearScreen() {
     printf("\x1b[2J");
